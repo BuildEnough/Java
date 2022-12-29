@@ -38,16 +38,15 @@ public class _03_MultiDimensionalArray {
         System.out.println(seats2[0][2]);
 
         // A5에 접근하려면?
-        System.out.println(seats2[0][4]);
+        // System.out.println(seats2[0][4]);
 
-        // 3차원 배열 만들기 (세로 x 가로 x 높이)
+        // 3차원 배열 만들기 (세로 x 가로 x 높이)회
         String[][][] marray = new String[][][] {
                 { {}, {}, {}, },
                 { {}, {}, {}, },
                 { {}, {}, {}, },
         };
-        String[][][] marray2 = new String[3][3][3]{
-        };
-        }
+
+        String[][][] marray2 = new String[3][3][3];
     }
 }
