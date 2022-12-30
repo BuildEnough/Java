@@ -2,6 +2,12 @@ package chap_06;
 
 public class _06_WhenToUseMethod {
     // 불필요한 중복을 줄일 수 있음
+
+    public static int getPower(int number) {
+        return getPower(number, 2);
+        // 밑에 있는 메서드를 통해 똑같이 정의 가능
+    }
+
     public static int getPower(int number, int exponent) {
         int result = 1;
         for (int i = 0; i < exponent; i++) {
