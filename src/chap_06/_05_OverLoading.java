@@ -24,7 +24,7 @@ public class _05_OverLoading {
         // 메서드 오버로딩 조건:
         // 1. 전달 값의 타입이 다르거나
         // 2. 전달 값의 개수가 다를 때
-        // 반환형은 상관없음 public static int -> public static double 과 같은 경우 안됨
+        // 반환형은 상관없음 public static int -> public static double 과 같은 경우 안됨유
         // 전달값의 타입, 자료형, 전달값의 개수가 다를 때 똑같은 이름의 메서드를 중복해서 선언 가능
         System.out.println(getPower(3)); // 3 * 3 = 9
         System.out.println(getPower("4")); // 4 * 4 = 16
